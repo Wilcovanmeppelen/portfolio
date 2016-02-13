@@ -1,0 +1,61 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\000031}}
+.media {
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\000035}}
+.media:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000310}}
+.media,
+.media-body {
+  zoom: 1;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000316}}
+.media-body {
+  width: 10000px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000320}}
+.media-object {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000324}}
+.media-object.img-thumbnail {
+  max-width: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000329}}
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000334}}
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000339}}
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000346}}
+.media-middle {
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000350}}
+.media-bottom {
+  vertical-align: bottom;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000355}}
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/media\.less}line{font-family:\0000363}}
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
