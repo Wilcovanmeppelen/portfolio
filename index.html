@@ -10,6 +10,9 @@
   <!-- Bootstrap + styles -->
   <link rel="stylesheet" href="bower_components/bootstrap/css/main.css">
 
+  <!-- Plugins -->
+  <link rel="stylesheet" href="assets/css/progressbar.css">
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -19,11 +22,20 @@
 
 </head>
 <body>
-  <div class="container-fluid">
+  <progress value="0" id="progressBar">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+
+  <div class="container">
     <header>
       <nav>
-        <span class="pull-left">
-          <a href="#">LOGO</a>
+        <span class="pull-left brand">
+          <a href="#">
+            <img src="./assets/images/logo-white.png" alt="logo" class="brand-logo-white">
+            <img src="./assets/images/logo.png" alt="logo" class="brand-logo-black">
+          </a>
         </span>
         <ul class="pull-right">
           <li><a href="#">HOME</a></li>
@@ -38,6 +50,7 @@
 
   <div class="home-page">
     <h1>
+      <img src="./assets/images/logo-white.png" alt="logo">
       WILCO VAN MEPPELEN
       <span class="border-break"></span>
       <span>
@@ -48,7 +61,24 @@
     </h1>
   </div>
 
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-xs-5">
+        <img src="./assets/images/me.png" alt="Wilco">
+      </div>
+      <div class="col-xs-7">
+        <h1>ABOUT ME</h1>
+        <span class="border-break black"></span>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias, repudiandae deleniti, commodi reprehenderit magnam, possimus, autem officiis optio doloribus debitis expedita amet veniam quo atque porro dolorum perspiciatis odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sint fuga impedit, explicabo voluptatem quas. Fugiat ad voluptatum temporibus odio assumenda, perferendis, quaerat cupiditate tempora, accusantium repellendus nam. Quos, consequatur.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/plugins/progressbar.js"></script>
 </body>
 </html>

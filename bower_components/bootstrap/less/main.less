@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import "bootstrap.less";
 
 // overrides here
@@ -6,36 +6,100 @@
 
 body{
   background: @brand-bg;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header{
   position: fixed;
-  left:0;
-  right:0;
+  left:150px;
+  right:150px;
   z-index: 1200;
-  padding:20px;
+  padding:23px 20px 20px 20px;
   text-align: center;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+
+  .brand-logo-white{
+    display: block;
+  }
+  .brand-logo-black{
+    display: none;
+  }
+
+  &.active{
+    background: #fff;
+    border-bottom: 1px solid #acacac;
+    left:0;
+    right:0;
+    padding: 20px 170px;
+    ul{
+      margin-top: 8px
+    }
+    ul li a{
+      color: #000;
+      margin-top:15px;
+      &:hover{
+        color: #000;
+      }
+    }
+    .brand-logo-white{
+      display: none;
+    }
+    .brand-logo-black{
+      display: block;
+    }
+  }
+
+  .brand{
+
+    img{
+      width:100px;
+      height: auto;
+    }
+  }
+
   ul {
     text-align: left;
+    margin:0;
+
     li{
       display: inline-block;
       margin-right:20px;
+
       a{
         color:#fff;
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 14px;
       }
+
       a:hover{
         color:#fff;
         text-decoration: none;
         border-bottom:2px solid #fff;
       }
+
       &:last-child{
         margin-right:0;
       }
     }
   }
+}
+
+img{
+  width:100%;
+}
+
+.text{
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#about{
+  padding:50px;
 }
 
 .border-break{
@@ -44,6 +108,10 @@ header{
   height:2px;
   width:40px;
   background: #fff;
+  &.black{
+    background: #000;
+    margin-left:0;
+  }
 }
 
 .home-page{
@@ -56,11 +124,18 @@ header{
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
+
+  img{
+    display: block;
+    width:200px;
+    margin:0 auto 20px auto;
+  }
+
   h1{
     color: #fff;
     margin:0;
     padding:0;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 12px;
     font-size: 45px;
     position: absolute;
@@ -68,6 +143,7 @@ header{
     margin-top:-90px;
     left:0;
     right:0;
+
     span{
       display: block;
       font-size: 12px;
