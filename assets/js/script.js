@@ -2,8 +2,8 @@ var targetOffset = $("#about").offset().top - 50;
 
 var $w = $(window).scroll(function(){
     if ( $w.scrollTop() > targetOffset ) {
-        $('header').addClass('active');
+        $('header').addClass('fade-down active');
     } else {
-      $('header').removeClass('active');
+      $('header').removeClass('fade-down active');
     }
 });
