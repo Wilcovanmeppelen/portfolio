@@ -7,3 +7,5 @@ var $w = $(window).scroll(function(){
       $('header').removeClass('fade-down active');
     }
 });
+
+$(window).stellar();

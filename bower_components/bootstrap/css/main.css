@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -8165,29 +8165,34 @@ button.close {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\000039}}
+* {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000314}}
 body {
   background: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000318}}
 header {
   position: absolute;
-  left: 150px;
-  right: 150px;
+  left: 15px;
+  right: 15px;
   z-index: 1200;
-  padding: 23px 20px 20px 20px;
+  padding: 23px 20px 20px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000325}}
 header .brand-logo-white {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000328}}
 header .brand-logo-black {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000331}}
 header.active {
   position: fixed;
   background: #fff;
@@ -8196,41 +8201,41 @@ header.active {
   right: 0;
   padding: 20px 170px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000338}}
 header.active ul {
   margin-top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000341}}
 header.active ul li a {
   color: #000;
   margin-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000344}}
 header.active ul li a:hover {
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000349}}
 header.active a:hover {
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000352}}
 header.active a:before {
   background-color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000356}}
 header.active .brand-logo-white {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000359}}
 header.active .brand-logo-black {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000364}}
 header .brand img {
   width: 100px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000369}}
 header ul {
   text-align: left;
   margin: 0;
@@ -8241,21 +8246,21 @@ header ul li {
   margin-right: 20px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000376}}
 header ul li a {
   color: #fff;
-  opacity: .4;
-  transition: opacity .4s;
+  opacity: 0.4;
+  transition: opacity 0.4s;
   text-transform: uppercase;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000382}}
 header ul li a:hover {
   color: #fff;
   text-decoration: none;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\0000387}}
 header ul li a:before {
   content: "";
   position: absolute;
@@ -8270,17 +8275,17 @@ header ul li a:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003101}}
 header ul li a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003107}}
 header ul li:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003113}}
 .btn-brand {
   border: 1px solid #000;
   background: none;
@@ -8290,23 +8295,23 @@ header ul li:last-child {
   -o-transition: all 100ms ease-out;
   transition: all 100ms ease-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003121}}
 .btn-brand:hover {
   color: #fff;
   background: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003126}}
 img {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003129}}
 .text {
   color: #777777;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003135}}
 .border-break {
   display: block;
   margin: 20px auto;
@@ -8314,22 +8319,28 @@ img {
   width: 40px;
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003141}}
 .border-break.border-left {
   background: #000;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003145}}
 .border-break.border-right {
   background: #000;
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003150}}
+#intro {
+  background-color: rgba(0, 0, 0, 0.9);
+  background-attachment: fixed;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003154}}
 .home-page {
   position: relative;
-  height: 100vh;
+  height: 100%;
+  height: 120vh;
   width: 100%;
-  background: url(../../../assets/images/bg-fullscreen.jpg) no-repeat center center;
+  background-image: url("../../../assets/images/intro.svg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8337,44 +8348,58 @@ img {
   background-attachment: fixed;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003170}}
-.home-page img {
-  display: block;
-  width: 200px;
-  margin: 0 auto 20px auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003167}}
 .home-page h1 {
   color: #fff;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 12px;
-  font-size: 45px;
+  font-size: 60px;
   position: absolute;
-  top: 50%;
-  margin-top: -90px;
-  left: 0;
-  right: 0;
+  margin-top: 50%;
+  top: -200px;
+  text-align: left;
+  left: 45px;
+  z-index: 100;
+  letter-spacing: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003179}}
 .home-page h1 span {
   display: block;
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003188}}
+.social-media-row ul li {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003192}}
 #about {
   padding: 50px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003195}}
 #portfolio {
   background: #f9f9f9;
   padding: 50px 0;
   border-top: #acacac;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003199}}
+#portfolio img {
+  width: 750px;
+  margin-left: -100px;
+  margin-top: -60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003205}}
+#contact {
+  width: 650px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003208}}
 #contact .border-break {
   background: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wilcovanmeppelenscheppink\/Documents\/persoonlijk\/portfolio\/bower_components\/bootstrap\/less\/main\.less}line{font-family:\00003211}}
+#contact textarea {
+  resize: none;
+  height: 250px;
 }

@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="bower_components/bootstrap/css/main.css">
 
   <!-- Plugins -->
-  <link rel="stylesheet" href="assets/css/progressbar.css">
   <link rel="stylesheet" href="assets/css/fade.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,13 +23,7 @@
 
 </head>
 <body>
-  <progress value="0" id="progressBar">
-    <div class="progress-container">
-      <span class="progress-bar"></span>
-    </div>
-  </progress>
-
-  <div class="container">
+  <div class="container-fluid">
     <header>
       <nav>
         <span class="pull-left brand">
@@ -49,17 +43,23 @@
     </header>
   </div>
 
-  <div class="home-page">
-    <h1>
-      <img src="./assets/images/logo-white.png" alt="logo">
-      WILCO VAN MEPPELEN
-      <span class="border-break"></span>
-      <span>
-        <i>
-          Front-end developer / webdesigner
-        </i>
-      </span>
-    </h1>
+
+  <div id="intro" class="home-page" div data-stellar-background-ratio="0.3">
+    <div class="row">
+      <div class="col-xs-7">
+        <div class="social-media-row">
+          <ul>
+            <li><i class="fa fa-facebook"></i></li>
+            <li><i class="fa fa-github"></i></li>
+            <li><i class="fa fa-linkedin"></i></li>
+          </ul>
+        </div>
+
+        <h1>
+          WILCO VAN MEPPELEN IS A FRONT-END DEVELOPER &amp; GRAPHIC DESIGNER FROM HOLLAND
+        </h1>
+      </div>
+    </div>
   </div>
 
   <div class="container" id="about">
@@ -91,14 +91,14 @@
           </div>
         </div>
         <div class="col-xs-5">
-
+          <img src="./assets/images/testcase.png" alt="">
         </div>
       </div>
     </div>
   </div>
 
   <div id="contact">
-    <div class="container text-center">
+    <div class="text-center">
       <h1>CONTACT</h1>
       <span class="border-break"></span>
       <div class="row">
@@ -116,6 +116,9 @@
           <div class="form-group">
             <textarea name="" class="form-control" placeholder="Message"></textarea>
           </div>
+          <div class="pull-right btn btn-brand">
+            Send message
+          </div>
         </div>
       </div>
 
@@ -124,8 +127,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="assets/js/script.js"></script>
   <script src="assets/js/plugins/progressbar.js"></script>
-  <script src="bower_components/jquery-validation/jquery.validate.js"></script>
+  <script src="assets/js/plugins/jquery.stellar.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
